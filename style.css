@@ -4,35 +4,41 @@ body {
 .main {
   margin: 100px auto;
   padding: 50px;
-  background-image: linear-gradient(#106d8d,#41b56e,#1d718e);
-  width: 20%;
-  padding: 100px;
-  border-style: solid double ;
-  border-right-color: #106d8d;
+  background-image: linear-gradient(#106d8d, #41b56e, #1d718e);
+  width: 300px;
+  padding: 60px;
+  border-style: solid double;
+  border-color: #106d8d;
+  border-width: 5px;
 }
+
 .info {
+  padding: 60px;
+  width: 80%;
 }
 .img {
-    width: 100px;
+  width: 80px;
 }
-.image{
-    top: 50px;
-    position: absolute;
-    margin-left: 700px;
+.image {
+  top: 120px;
+  position: absolute;
+  margin-left: 110px;
 }
 input {
-    padding: 10px;
-    width: 80%;
+  padding: 10px;
+  width: 80%;
 }
 
 .button {
-    background-color: #41b56e;
-    width: 80%;
-    color: white;
-   border-color: #41b56e;
-    
+  background-color: #41b56e;
+  width: 80%;
+  color: white;
+  border-color: #41b56e;
 }
-.checkbox {
-    display: flex;
-    justify-content: space-around;
+@media (max-width: 1500px) {
+  .image {
+    top: 120px;
+    position: absolute;
+    margin-left: 130px;
+  }
 }
